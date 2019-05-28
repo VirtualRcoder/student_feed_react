@@ -1,0 +1,48 @@
+   * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+
+
+   body {
+     font-family: "Open Sans", sans-serif;
+     background: White;
+     color: Black;
+   }
+   
+   table{
+      background-color:lightgreen;
+      text-align: center;
+      border-collapse: collapse;
+      width:90%;
+   }
+
+   caption{
+      font-size:35px;
+      font-style:bold;
+      background-color:#ff4f00
+   }
+   .navbar {
+     background: Black;
+     padding: 0.5rem 1rem;
+   }
+   .nav-links {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+   }
+   .nav-link {
+     color: Grey;
+     text-transform: capitalize;
+     text-decoration: none;
+     font-size: 1.2rem;
+     transition: all 0.3s linear;
+     &:hover {
+       color: Green;
+     }
+   }
+   .active {
+     color: Green;
+     font-size:40px;
+     background-color:powderblue;
+   }
